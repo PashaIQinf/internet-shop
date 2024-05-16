@@ -1,1 +1,7 @@
-
+body {
+    position: relative;
+    box-sizing: inherit;
+    min-height: 100vh;
+    font-family: "Kumbh Sans", sans-serif;
+  }
+  

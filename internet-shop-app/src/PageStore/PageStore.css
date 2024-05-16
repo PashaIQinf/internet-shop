@@ -1,0 +1,41 @@
+.pagetab {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:  #E8CEC6;
+    color: white;
+    min-height: 5vh;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    border-top: 1px solid #44251C;
+    top: 9.5vh;
+  }
+  .tab-button{
+    margin: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+    width: 300px;
+    display: inline-block;
+    text-align: center;
+    font-family: tahoma, sans-serif;
+    font-size:18px;
+    border-right: 4px solid #44251C;
+    justify-content: center;
+  }
+  .tab-button-end{
+    margin: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+    width: 300px;
+    display: inline-block;
+    text-align: center;
+    font-family: tahoma, sans-serif;
+    font-size:18px;
+    justify-content: center;
+  }
+  .tab {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+  }
