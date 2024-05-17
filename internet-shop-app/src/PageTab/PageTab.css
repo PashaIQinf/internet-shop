@@ -4,10 +4,10 @@
     color: white;
     min-height: 5vh;
     padding: 10px 20px;
-    position: fixed;
-    width: 100%;
+    display : block;
     border-top: 1px solid #44251C;
     top: 9.5vh;
+    grid-area: b;
   }
   .tab-button{
     margin: 10px;

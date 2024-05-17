@@ -1,7 +1,31 @@
 .leftsidebar {
-    top:158.25px;
-    position: relative;
     background-color: #f9ddca;
-    width: 350px ;
+    width:  fit-content ;
     height: fit-content;
+    align-items:center;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: nowrap;
+    display : block;
+    float: left;
+    
+}
+.leftsidebar Button {
+    background-color: #FCC58C;
+    border: 1px solid #FCC58C; 
+    color: #C07651; 
+    cursor: pointer; 
+    width: 350px;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.leftsidebar div {
+    font-family: tahoma, sans-serif;
+    font-size:18px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #44251C;
 }

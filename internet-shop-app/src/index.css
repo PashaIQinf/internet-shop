@@ -1,7 +1,9 @@
-body {
-    position: relative;
-    box-sizing: inherit;
-    min-height: 100vh;
-    font-family: "Kumbh Sans", sans-serif;
-  }
+#root {
+  margin: 0 auto;
+  text-align: center;
+  height: 100vh;
+  vertical-align: middle
+  
+}
+
   

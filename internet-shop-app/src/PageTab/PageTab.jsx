@@ -1,6 +1,6 @@
 import React from 'react'
-import './PageStore.css'
-export default function PageStore() {
+import './PageTab.css'
+export default function PageTab() {
   return (
    <div className='pagetab'>
      <div className='tab' >

@@ -1,0 +1,26 @@
+.ListTab {
+    float: right;
+    display: block;
+    height: 60px;
+    background-color: #f9ddca;
+    width: calc(100% - 350px);
+    position: relative;
+    position: absolute;
+    bottom: 0;
+    left: 350px;
+}
+.ListTab Button {
+    background-color: #FCC58C;
+    border: 1px solid #FCC58C; 
+    color: #C07651; 
+    cursor: pointer; 
+    width: 30px;
+    display: block;
+    margin-top: 14px;
+    margin-left: 5px;
+    float: left;
+    text-align: center;
+    align-items: center;
+    padding: 1px;
+ 
+}
