@@ -6,10 +6,10 @@ import './index.css'
 import { BrowserRouter,Routes, Route } from "react-router-dom";
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename='/internet-shop'>
       <Routes>
-        <Route path="/internet-shop" element={<App/>} />
-        <Route path="/internet-shop/basket" element={<App2/>} />
+        <Route path="/" element={<App/>} />
+        <Route path="/basket" element={<App2/>} />
       </Routes>
    </BrowserRouter>
 
