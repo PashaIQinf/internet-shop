@@ -1,4 +1,46 @@
 .Footer {
-    background-color: #44251C;
-    height: 150px;
+    background-color: #E8CEC6;
+    height: 200px;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #44251C;
+    display: block;
+    position: relative;
+    
+}
+
+.Contact h1 {
+    font-size: 20px;
+}
+.Footer div {
+    font-size: 16px;
+}
+.Address_Shop {
+    display: inline-block;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.Contact {
+    display: inline-block;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.Address_Shop h1 {
+    font-size: 20px;
+}
+.info-footer {
+   display: inline-block;
+   width: calc(100%);
+   height: calc(50%);
+  align-content: center;
+}
+.company {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin-bottom: 30px;
+    align-content: center;
 }

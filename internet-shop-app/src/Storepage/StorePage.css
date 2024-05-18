@@ -3,9 +3,9 @@
     margin-right: auto;
     background-color: whitesmoke;
     display: block;
-    width: 100vw;
+    width: auto;
     overflow: auto;
     position: relative;
-    height: 800px;
+    height: 1600px;
     
 }
