@@ -27,7 +27,7 @@ export default function Header() {
 
 
   <div className='header' id ={nameclass}>
-    <a href="/" className="logo"><img className="menulogo" src={Wonkaslogo} alt=""/></a>
+    <a href="/internet-shop" className="logo"><img className="menulogo" src={Wonkaslogo} alt=""/></a>
     <img className="menu" src = {Menu}/>
     <div className="header-right">
      <Button className='menu-button'>Авторизация</Button>
