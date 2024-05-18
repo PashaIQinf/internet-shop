@@ -115,3 +115,7 @@ input[type=”text” i]{
   height: 50px;
   margin: 10px;
 }
+.shopcart img {
+  width: calc(100%);
+  height: calc(100%);
+}
