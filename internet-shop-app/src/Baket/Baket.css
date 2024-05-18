@@ -1,0 +1,61 @@
+.Baket {
+    background-color: #f9ddca;
+    display: inline-block;
+    width: 800px;
+    height: 800px;
+    margin:50px
+
+}
+.Baket-tab {
+    background-color: #e8cec6;
+    height: 100px;
+}
+.Baket-tab Button {
+    background-color: #FCC58C;
+    border: 1px solid #FCC58C; 
+    color: #C07651; 
+    cursor: pointer; 
+    width: 350px;
+    display: block;
+    position: relative;
+    left:420px;
+    top: 34px;
+
+
+}
+.Baket-product {
+    background-color: #E8CEC6;
+    height: 100px;
+    border-bottom: 3px solid #FCC58C; 
+    border-top: 3px solid #FCC58C; 
+}
+.Baket-product img {
+    background-color: #E8CEC6;
+    height: 100px;
+    width:calc(20%);
+    float: left;
+    border: 1px solid #FCC58C; 
+}
+.Baket-name {
+    width:calc(50%);
+    height: 100px;
+    left:calc(20%);
+    position: relative;
+    align-content: left;
+}
+.Baket-name div {
+    font-size: 16px;
+    font-family: tahoma, sans-serif;
+    color: #44251c;
+    position: relative;
+    text-align:start;
+    height: calc(50%);
+    border-right: 3px solid #FCC58C; 
+
+
+}
+.Baket-count {
+    width:calc(20%);
+    height: 80px;
+    float: right;
+}
