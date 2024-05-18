@@ -9,7 +9,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <BrowserRouter>
       <Routes>
         <Route path="/internet-shop" element={<App/>} />
-        <Route path="/#basket" element={<App2/>} />
+        <Route path="/internet-shop/basket" element={<App2/>} />
       </Routes>
    </BrowserRouter>
 
