@@ -1,9 +1,10 @@
 .Baket {
     background-color: #f9ddca;
-    display: inline-block;
     width: 800px;
-    height: 800px;
-    margin:50px
+    height: fit-content;
+    margin:50px;
+    vertical-align: middle;
+    display: inline-block;
 
 }
 .Baket-tab {
@@ -28,7 +29,7 @@
     height: 100px;
     border-bottom: 3px solid #FCC58C; 
     border-top: 3px solid #FCC58C; 
-    display: block;
+    display:flexbox;
 }
 .Baket-product img {
     background-color: #E8CEC6;

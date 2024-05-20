@@ -1,7 +1,26 @@
 .Payment {
-    display: inline-block;
     width: 800px;
     height: 400px;
     background-color: #f9ddca;
+    vertical-align:top;
+    margin-top: 50px;
+    display: inline-block;
     position: relative;
+}
+.Payment-cost {
+    font-size: 23px;
+    font-family: tahoma, sans-serif;
+    color: #44251c;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.Payment Button {
+    background-color: #FCC58C;
+    color: #C07651; 
+    cursor: pointer; 
+    width: 200px;
+    height: 50px;
+    font-size: 23px;
+    font-family: tahoma, sans-serif;
+    color: #44251c;
 }
