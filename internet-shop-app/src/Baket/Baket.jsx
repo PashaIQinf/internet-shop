@@ -14,7 +14,79 @@ export default function Baket() {
                 <div>Конфета «Глэйс» с шоколадным вкусом.</div>
                 <div>1000 руб. за штуку</div>
             </div>
+            <Button className='Baket-button'>Удалить</Button>
+            <div className='Baket-count'>
+              <Button>-</Button>
+              <div>1 штука</div> 
+              <Button>+</Button> 
+            </div>
+        </div>
+        <div className='Baket-product'>
+            <img src ={Gleis}/>
+            <div className='Baket-name'>
+                <div>Конфета «Глэйс» с шоколадным вкусом.</div>
+                <div>1000 руб. за штуку</div>
+            </div>
+            <Button className='Baket-button'>Удалить</Button>
+            <div className='Baket-count'>
+              <Button>-</Button>
+              <div>1 штука</div> 
+              <Button>+</Button> 
+            </div>
+        </div>
+        <div className='Baket-product'>
+            <img src ={Gleis}/>
+            <div className='Baket-name'>
+                <div>Конфета «Глэйс» с шоколадным вкусом.</div>
+                <div>1000 руб. за штуку</div>
+            </div>
+            <Button className='Baket-button'>Удалить</Button>
+            <div className='Baket-count'>
+              <Button>-</Button>
+              <div>1 штука</div> 
+              <Button>+</Button> 
+            </div>
+        </div>
+        <div className='Baket-product'>
+            <img src ={Gleis}/>
+            <div className='Baket-name'>
+                <div>Конфета «Глэйс» с шоколадным вкусом.</div>
+                <div>1000 руб. за штуку</div>
+            </div>
+            <Button className='Baket-button'>Удалить</Button>
+            <div className='Baket-count'>
+              <Button>-</Button>
+              <div>1 штука</div> 
+              <Button>+</Button> 
+            </div>
+        </div>
+        <div className='Baket-product'>
+            <img src ={Gleis}/>
+            <div className='Baket-name'>
+                <div>Конфета «Глэйс» с шоколадным вкусом.</div>
+                <div>1000 руб. за штуку</div>
+            </div>
+            <Button className='Baket-button'>Удалить</Button>
+            <div className='Baket-count'>
+              <Button>-</Button>
+              <div>1 штука</div> 
+              <Button>+</Button> 
+            </div>
+        </div>
+        <div className='Baket-product'>
+            <img src ={Gleis}/>
+            <div className='Baket-name'>
+                <div>Конфета «Глэйс» с шоколадным вкусом.</div>
+                <div>1000 руб. за штуку</div>
+            </div>
+            <Button className='Baket-button'>Удалить</Button>
+            <div className='Baket-count'>
+              <Button>-</Button>
+              <div>1 штука</div> 
+              <Button>+</Button> 
+            </div>
         </div>
     </div>
+    
   )
 }
