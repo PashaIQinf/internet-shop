@@ -1,0 +1,9 @@
+.wrapper-item {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: whitesmoke;
+    width: auto;
+    height: fit-content;
+    min-height: calc(100%);
+    align-content: center;
+}

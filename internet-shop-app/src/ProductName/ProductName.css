@@ -1,0 +1,69 @@
+.ProductName {
+    background-color: #f9ddca;
+    width: 1200px;
+    height: 600px;
+    margin: 40px;
+    vertical-align: middle;
+    display: inline-block;
+    border: 1px solid #44251c; 
+}
+.ProductName div {
+    font-size: 18px;
+    font-family: tahoma, sans-serif;
+    color: #44251c;
+}
+.ProductName h1 {
+    font-size: 30px;
+    font-family: tahoma, sans-serif;
+    color: #44251c;
+}
+.ProductName h2 {
+    font-size: 23px;
+    font-family: tahoma, sans-serif;
+    color: #44251c;
+}
+.ProductName img {
+    display: inline-block;
+    width: calc(50%);
+    height: calc(100%);
+    vertical-align: middle;
+
+}
+.ProductProp {
+    width: calc(50%);
+    display: inline-block;
+    height: calc(100%);
+    vertical-align: middle;
+}
+.Product-calories div{
+    display: inline-block;
+    font-size: 18px;
+    font-family: tahoma, sans-serif;
+    color: #44251c;
+    margin: 10px;
+    text-align: center;
+
+    
+}
+.Product-calories {
+    margin: 10px;
+}
+.Product-calories div div{
+    display: block;
+    font-size: 18px;
+    font-family: tahoma, sans-serif;
+    color: #44251c;
+    margin: 10px;
+    text-align: center;
+
+}
+.ProductText {
+    font-size: 22px;
+    width: calc(80%);
+    position: relative;
+    text-align: center;
+    font-family: tahoma, sans-serif;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    left:calc(10%)
+}

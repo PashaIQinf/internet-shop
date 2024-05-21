@@ -1,0 +1,198 @@
+.ProductProps {
+    width: calc(80%);
+    display: block;
+    height: fit-content;
+    background-color: #f9ddca;
+    align-content: center;
+    position: relative;
+    text-align: center;
+    margin: 0px auto;
+    margin-bottom: 40px;
+}
+.PropsTab {
+ margin: 0px 0px 50px 0px;
+}
+.TabItems {
+ display: flex;
+}
+
+.Items{
+  flex: 0 1 50%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.TabBody {
+}
+.TabBlock {
+   position: relative;
+   padding: 20px;
+   display: none;
+}
+.Items span {
+    position: relative;
+    z-index: 2;
+    font-size: 23px;
+    font-family: tahoma, sans-serif;
+    color: #44251c;
+
+}
+.TabBlock:before {
+    content: "";
+    height: 50px;
+    width: 50%;
+    position: absolute;
+    top: -50px;
+}
+
+.TabBlock:nth-child(1):before {
+    border-bottom:3px solid  #44251c;
+    background-color: #E8CEC6;
+    left: 0;
+}
+
+.TabBlock:nth-child(2):before {
+    border-bottom:3px solid  #44251c;
+    background-color: #E8CEC6;
+    right: 0;
+}
+
+.TabBlock:target {
+    display: block;
+}
+.CommentBlock {
+    margin: 0px auto;
+    background-color: #E8CEC6;
+    width: calc(50%);
+    border:1px solid  #44251c;
+    margin-top: 30px;
+}
+.Comment-profile {
+    font-size: 18px;
+    font-family: tahoma, sans-serif;
+    color: #44251c;
+    display: flex;
+    width: calc(100%);
+    height: fit-content;
+    border-bottom:1px solid  #44251c;
+
+}
+.Comment-text {
+    display: inline;
+    font-size: 20px;
+    font-family: tahoma, sans-serif;
+    color: #44251c;
+}
+.Comment-profile-user {
+    flex: 0 1 50%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: tahoma, sans-serif;
+    color: #44251c;
+    padding-top: 20px;
+}
+.Comment-data {
+    flex: 0 1  50%;
+    height: 50px;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    font-size: 18px;
+    font-family: tahoma, sans-serif;
+    color: #44251c;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.Comment-rating {
+    font-size: 25px;
+    font-family: tahoma, sans-serif;
+    color: #44251c;
+    background-color: #E8CEC6;
+    margin: 0px auto;
+    width: calc(50%);
+    height: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+    border:1px solid  #44251c;
+    height: 50px;
+    display: flex;
+}
+.Characteristics-props {
+    font-size: 23px;
+    font-family: tahoma, sans-serif;
+    color: #44251c;
+}
+.CharaTable {
+    width: calc(80%);
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    margin: 0px auto;
+    line-break: auto;
+    justify-content: left;
+}
+.CharaTable tr {
+    border-bottom: 2px solid #44251c; 
+    vertical-align: top;
+}
+.CharaTable tr:part(8) {
+    vertical-align: top;
+}
+.CharaTable tr td {
+    text-align: left;
+    padding: 10px;
+}
+.Characteristics-props-end {
+    font-size: 23px;
+    font-family: tahoma, sans-serif;
+    color: #44251c;
+    border-bottom: none; 
+}
+.Input-Comment {
+    width: calc(70%);
+    margin: 0 auto;
+    margin-top: 30px;
+    display: inline-block;
+}
+.Input-Comment Button{
+    display: inline-block;
+    width: calc(20%);
+    height: 60px;
+    background-color: #FCC58C;
+    color: #44251C;
+    font-size: 18px;
+    font-family: tahoma, sans-serif;
+    color: #44251c;
+}
+.Input-Comment Input{
+    display: inline-block;
+    height: 60px;
+    width: calc(50%);
+}
+.Rating Button{
+    width: 50px;
+    height: 60px;
+    background-color: #FCC58C;
+    color: #44251C;
+    font-size: 18px;
+    font-family: tahoma, sans-serif;
+    color: #44251c;
+    flex: 0 1 50%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Rating {
+    flex: 0 1 50%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
