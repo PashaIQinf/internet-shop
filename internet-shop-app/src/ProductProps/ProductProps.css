@@ -34,7 +34,7 @@
 }
 .Items span {
     position: relative;
-    z-index: 2;
+    z-index: 1;
     font-size: 23px;
     font-family: tahoma, sans-serif;
     color: #44251c;

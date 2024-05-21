@@ -107,7 +107,7 @@ input[type=”text” i]{
 #fixed { 
   position: sticky;
     top: 0px;
-    z-index: 3;
+    z-index: 999999999;
 }
 
 .shopcart {
