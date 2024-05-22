@@ -21,6 +21,12 @@
     margin-top: 5px;
     margin-bottom: 5px;
 }
+.leftsidebar Button:hover {
+    background-color: #44251C !important;
+    border-color: #44251C !important; 
+    color: whitesmoke !important; 
+ 
+}
 .leftsidebar div {
     font-family: tahoma, sans-serif;
     font-size:18px;

@@ -1,0 +1,60 @@
+.RegisterPage {
+    width: 800px;
+    height: fit-content;
+    background-color: #f9ddca;
+    margin: 0px auto;
+    padding-bottom: 40px;
+}
+.wrapper-register {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: whitesmoke;
+    width: auto;
+    height: 1200px;
+    min-height: calc(100%);
+    align-content: center;
+}
+.Register-logo {
+    background-color: #E8CEC6;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-family: tahoma, sans-serif;
+    color:  #44251c;
+    font-weight:bold;
+}
+.Register {
+    font-size: 20px;
+    font-family: tahoma, sans-serif;
+    color:  #44251c;
+    display: block;
+    margin: 0px auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.Register div {
+    vertical-align: middle;
+    display: inline-block;
+    width: calc(30%);
+}
+.Register Input {
+    vertical-align: middle;
+    display: inline-block;
+    width: calc(50%);
+    height: 40px;
+}
+.RegisterPage Button {
+    height: 60px;
+    background-color: #FCC58C;
+    color:#44251C;
+    font-size: 18px;
+    font-family: tahoma, sans-serif;
+    color: #44251c;
+    width: calc(60%) 
+}
+.RegisterPage Button:hover {
+    background-color: #44251C !important;
+    border-color: #44251C !important; 
+    color: whitesmoke !important; 
+ 
+}

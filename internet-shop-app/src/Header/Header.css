@@ -60,8 +60,21 @@ input[type=”text” i]{
 .menu-button{
   border-radius: 50px;
   margin: 10px;
+  border: 1px solid #44251C;
   background-color: #44251C;
   color: #EADEBD;
+  height: 50px;
+  font-size: 18px;
+  text-decoration: none;
+  align-content: center;
+  align-items: center;
+}
+.menu-button a {
+  color: #EADEBD;
+  font-size: 18px;
+  height: 50px;
+  position: relative;
+  bottom: 5px;
 }
 
 
@@ -119,3 +132,13 @@ input[type=”text” i]{
   width: calc(100%);
   height: calc(100%);
 }
+.menu-button:hover {
+  background-color: #C48F65 !important;
+  border-color: #44251C !important;
+  color: whitesmoke !important;
+}
+.menu-button a:hover {
+  color: whitesmoke !important;
+}
+  
+  

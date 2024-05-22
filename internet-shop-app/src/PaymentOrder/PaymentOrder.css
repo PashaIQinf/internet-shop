@@ -37,6 +37,12 @@
     color: #44251c;
     width: calc(60%) 
 }
+.OrderConfirm Button:hover {
+    background-color: #44251C !important;
+    border-color: #44251C !important; 
+    color: whitesmoke !important; 
+ 
+}
 .OrderConfirm  {
     margin-bottom: 20px;
     width: calc(100%);

@@ -168,6 +168,12 @@
     font-family: tahoma, sans-serif;
     color: #44251c;
 }
+.Input-Comment Button:hover {
+    background-color: #44251C !important;
+    border-color: #44251C !important; 
+    color: whitesmoke !important; 
+ 
+}
 .Input-Comment Input{
     display: inline-block;
     height: 60px;
@@ -186,6 +192,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.Rating Button:hover {
+    background-color: #44251C !important;
+    border-color: #44251C !important; 
+    color: whitesmoke !important; 
+ 
 }
 .Rating {
     flex: 0 1 50%;

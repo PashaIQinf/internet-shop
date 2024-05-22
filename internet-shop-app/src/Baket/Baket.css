@@ -24,6 +24,12 @@
 
 
 }
+.Baket-tab Button:hover {
+    background-color: #44251C !important;
+    border-color: #44251C !important; 
+    color: whitesmoke !important; 
+ 
+}
 .Baket-product {
     background-color: #E8CEC6;
     height: 100px;
@@ -80,6 +86,11 @@
     cursor: pointer; 
     width: fit-content;
 }
+.Baket-count Button:hover {
+    background-color: #44251C !important;
+    border-color: #44251C !important; 
+    color: whitesmoke !important; 
+}
 .Baket-button{
     float: right;
     position: relative;
@@ -91,4 +102,9 @@
     width: 150px;
     margin-right: 20px;
     display: block;
+}
+.Baket-button:hover {
+    background-color: #44251C !important;
+    border-color: #44251C !important; 
+    color: whitesmoke !important; 
 }

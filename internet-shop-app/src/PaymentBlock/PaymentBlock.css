@@ -24,3 +24,9 @@
     font-family: tahoma, sans-serif;
     color: #44251c;
 }
+.Payment-Button:hover {
+    background-color: #44251C !important;
+    border-color: #44251C !important; 
+    color: whitesmoke !important; 
+ 
+}
