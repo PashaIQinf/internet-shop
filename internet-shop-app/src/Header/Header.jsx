@@ -30,7 +30,7 @@ export default function Header() {
     <a href="/internet-shop" className="logo"><img className="menulogo" src={Wonkaslogo} alt=""/></a>
     <img className="menu" src = {Menu}/>
     <div className="header-right">
-     <Button className='menu-button' >Авторизация</Button>
+     <Button className='menu-button' ><a href = "/internet-shop/login">Авторизация</a></Button>
      <Button  className='menu-button' ><a href = "/internet-shop/register">Регистрация</a></Button>
      <a className="shopcart" href = '/internet-shop/basket'><img  src={Shopcart}  /></a>
     </div>

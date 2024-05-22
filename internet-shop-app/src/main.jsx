@@ -5,6 +5,7 @@ import App2 from './App2.jsx'
 import App3 from './App3.jsx'
 import App4 from './App4.jsx'
 import App5 from './App5.jsx'
+import App6 from './App6.jsx'
 import './index.css'
 import { BrowserRouter,Routes, Route } from "react-router-dom";
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -16,6 +17,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="/item" element={<App3/>} />        
         <Route path="/order" element={<App4/>} />
         <Route path="/register" element={<App5/>} />
+        <Route path="/login" element={<App6/>} />
       </Routes>
    </BrowserRouter>
 
