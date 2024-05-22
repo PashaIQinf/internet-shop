@@ -8,7 +8,7 @@ export default function PaymentBlock() {
         <div>1000 руб.</div>
         <div> 10 штук.</div>
       </div>
-      <Button>Оформить заказ</Button>
+      <Button className='Payment-Button' href="/internet-shop/order">Оформить заказ</Button>
     </div>
   )
 }

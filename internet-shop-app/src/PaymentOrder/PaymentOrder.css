@@ -1,0 +1,103 @@
+.PaymentOrder {
+    width: 800px;
+    height: fit-content;
+    padding-bottom: 40px;
+    background-color: #f9ddca;
+    vertical-align:middle;
+    margin: 40px;
+    display: inline-block;
+    position: relative;
+    font-size: 18px;
+    font-family: tahoma, sans-serif;
+    color: #44251c;
+    border: 1px solid #44251c;
+}
+.OrderConfirm-logo {
+    background-color: #E8CEC6;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-family: tahoma, sans-serif;
+    color:  #44251c;
+    font-weight:bold;
+}
+.OrderConfirm-cost {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 20px;
+    font-family: tahoma, sans-serif;
+    color:  #44251c;
+}
+.OrderConfirm Button {
+    height: 60px;
+    background-color: #FCC58C;
+    color:#44251C;
+    font-size: 18px;
+    font-family: tahoma, sans-serif;
+    color: #44251c;
+    width: calc(60%) 
+}
+.OrderConfirm  {
+    margin-bottom: 20px;
+    width: calc(100%);
+}
+.OrderList {
+    background-color: #E8CEC6;
+    font-size: 20px;
+    font-family: tahoma, sans-serif;
+    color:  #44251c;
+    width: calc(100%);
+    font-weight:bold;
+    vertical-align:middle;
+    border-top: 1px solid #44251c;
+    border-bottom: 1px solid #44251c;
+}
+.OrderList div {
+    font-size: 20px;
+    font-family: tahoma, sans-serif;
+    color:  #44251c;
+    display: inline-block;
+    vertical-align:middle;
+    width: fit-content;
+    border-right: 1px solid #44251c;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right:120px ;
+}
+.OrderList a {
+    font-size: 20px;
+    font-family: tahoma, sans-serif;
+    color:  #44251c;
+    display: inline-block;
+    vertical-align:middle;
+    width: fit-content;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left:120px ;
+    text-decoration: none;
+    
+}
+.OrderList-items {
+    background-color: #E8CEC6;
+    font-size: 20px;
+    font-family: tahoma, sans-serif;
+    color:  #44251c;
+    width: calc(100%);
+    border-bottom: 1px solid #44251c;
+    width: calc(100%);
+}
+.OrderList-items-col {
+    display: inline-block;
+    vertical-align:middle;
+    align-content: center;
+    width: calc(33%);
+    border-right: 1px solid #44251c;
+    height: 48px;
+}
+.OrderList-items-end {
+    display: inline-block;
+    vertical-align:middle;
+    align-content: center;
+    width: calc(33.33333%);
+    
+}
