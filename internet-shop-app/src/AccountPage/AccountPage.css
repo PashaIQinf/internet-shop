@@ -1,0 +1,207 @@
+.AccountPage {
+    width: calc(80%);
+    display: block;
+    height: fit-content;
+    background-color: #f9ddca;
+    align-content: center;
+    position: relative;
+    text-align: center;
+    margin: 0px auto;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+}
+.wrapper-account {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: whitesmoke;
+    width: auto;
+    height: fit-content;
+    min-height: calc(100%);
+    align-content: center;
+    vertical-align: center;
+}
+.TabInset {
+ display: inline-block;
+ width: calc(25%);
+ height: calc(100%);
+ vertical-align: top;
+}
+.TabInset Button{
+    height: 60px;
+    background-color: #FCC58C;
+    color:#44251C;
+    font-size: 18px;
+    font-family: tahoma, sans-serif;
+    margin-top: 20px;
+    width: calc(50%);
+   }
+.TabInset Button:hover {
+    background-color: #44251C !important;
+    border-color: #44251C !important; 
+    color: whitesmoke !important; 
+ 
+}
+.TabPage {
+    display: inline-block;
+    width: calc(75%);
+    height: calc(100%);
+    vertical-align: middle;
+}
+
+.Inset{
+  flex: 0 1 50%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.Inset:focus{
+    border-right: 1px solid #44251C;
+
+  }
+.Page {
+   display: none;
+   width: calc(0%);
+   height: calc(0%);
+}
+
+.Inset span {
+    position: relative;
+    z-index: 1;
+    font-size: 23px;
+    font-family: tahoma, sans-serif;
+    color: #44251c;
+
+}
+
+.Page:target {
+    display: block;
+    width: calc(100%);
+    height: calc(100%);
+}
+.Page:target:before  {
+    content: "";
+    height: 50px;
+    width: 25%;
+    position: absolute;
+    left: 0px;
+}
+.Page:nth-child(1):before {
+    background-color: #FCC58C;
+    top: 0px;
+    border-right: 2px solid #44251C;
+}
+.Page:nth-child(2):before {
+    background-color: #FCC58C;
+    top: 50px;
+    border-right: 2px solid #44251C;
+}
+.UserData-logo {
+    background-color: #E8CEC6;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-family: tahoma, sans-serif;
+    color:  #44251c;
+    font-weight:bold;
+    width: calc(100%)
+}
+.UserData {
+    font-size: 20px;
+    font-family: tahoma, sans-serif;
+    color:  #44251c;
+    display: block;
+    margin: 0px auto;
+    margin-top: 40px;
+    margin-bottom: 40px;  
+}
+.UserData div {
+    vertical-align: middle;
+    display: inline-block;
+    width: calc(30%);
+}
+.UserData Input {
+    vertical-align: middle;
+    display: inline-block;
+    width: calc(40%);
+    height: 40px;
+}
+.UserData a {
+    padding-right: 10px;
+    vertical-align: middle;
+    display: inline-block;
+    width: calc(20%);
+}
+.PersonalData-logo {
+    background-color: #E8CEC6;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-family: tahoma, sans-serif;
+    color:  #44251c;
+    font-weight:bold;
+    width: calc(100%)
+}
+.PersonalData {
+    font-size: 20px;
+    font-family: tahoma, sans-serif;
+    color:  #44251c;
+    display: block;
+    margin: 0px auto;
+    margin-top: 40px;
+    margin-bottom: 40px;  
+}
+.PersonalData div {
+    vertical-align: middle;
+    display: inline-block;
+    width: calc(30%);
+}
+.PersonalData Input {
+    vertical-align: middle;
+    display: inline-block;
+    width: calc(40%);
+    height: 40px;
+}
+.PersonalData a {
+    padding-right: 10px;
+    vertical-align: middle;
+    display: inline-block;
+    width: calc(20%);
+}
+.OrdersTable {
+    width: calc(80%);
+    border-collapse: collapse;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin: 0px auto;
+    line-break: auto;
+    justify-content: left;
+    height: calc(80%);
+}
+.Orders-props {
+    font-size: 23px;
+    font-family: tahoma, sans-serif;
+    color: #44251c;
+    border-bottom: 2px solid #44251C;
+    padding-bottom: 100px;
+}
+.Orders-props td {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.Orders-items {
+    font-size: 23px;
+    font-family: tahoma, sans-serif;
+    color: #44251c;
+    border-bottom: 2px solid #44251C;
+    padding-bottom: 100px;
+}
+.Orders-items td {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.Orders-items td:nth-child(4) {
+    float: right;
+ }
