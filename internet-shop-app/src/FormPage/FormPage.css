@@ -1,4 +1,4 @@
-.RegisterPage {
+.FormPage {
     width: 800px;
     height: fit-content;
     background-color: #f9ddca;
@@ -8,7 +8,7 @@
     position: relative;
     top: 100px
 }
-.wrapper-register {
+.wrapper-form {
     margin-left: auto;
     margin-right: auto;
     background-color: whitesmoke;
@@ -18,7 +18,7 @@
     align-content: center;
     vertical-align: center;
 }
-.Register-logo {
+.Form-logo {
     background-color: #E8CEC6;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -27,7 +27,7 @@
     color:  #44251c;
     font-weight:bold;
 }
-.Register {
+.Form {
     font-size: 20px;
     font-family: tahoma, sans-serif;
     color:  #44251c;
@@ -36,12 +36,12 @@
     margin-top: 40px;
     margin-bottom: 40px;
 }
-.Register div {
+.Form div {
     vertical-align: middle;
     display: inline-block;
     width: calc(30%);
 }
-.Register input {
+.Form input {
     vertical-align: middle;
     display: inline-block;
     width: calc(50%);
@@ -52,7 +52,7 @@
     font-family: tahoma, sans-serif;
     color: #44251c;
 }
-.RegisterPage button {
+.FormPage button {
     height: 60px;
     background-color: #FCC58C;
     color:#44251C;
@@ -63,11 +63,19 @@
     border-color: #FCC58C;
     border-style: none;
 }
-.RegisterPage button:hover {
+.FormPage button:hover {
     background-color: #44251C !important;
     border-color: #44251C !important; 
     color: whitesmoke !important; 
     border-color: #44251C;
     
  
+}
+.Error-Form {
+    margin: 0px auto;
+    height: fit-content;
+    position: relative;
+    font-size: 16px;
+    font-family: tahoma, sans-serif;
+    color:  #44251c;
 }

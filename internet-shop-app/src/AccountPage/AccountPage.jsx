@@ -3,7 +3,12 @@ import './AccountPage.css'
 import { Button } from 'antd'
 import Input from 'antd/es/input/Input'
 import { genBoxStyle } from 'antd/es/image/style'
+import {selectEmail} from '../slices/userSlice'
+import {selectPassword} from '../slices/userPass'
+import { useSelector} from 'react-redux'
 export default function AccountPage() {
+  const emailUser = useSelector(selectEmail);
+  const passwordUser = useSelector(selectPassword);
   return (
     <section className='wrapper-account'>
     <div className='AccountPage'>
@@ -18,19 +23,13 @@ export default function AccountPage() {
                     <div className="UserData-logo">Данные пользователя</div>
                     <div className='UserData'>
                       <div>Логин</div>
-                      <Input/>
+                      <Input value = {emailUser}/>
                       <a>Изменить</a>
                     </div>
                     <div className='UserData'>
                       <div>Пароль</div>
-                      <Input/>
+                      <Input value={passwordUser}/>
                       <a>Изменить</a>
-                    </div>
-                    <div className="PersonalData-logo">Личные данные</div>
-                    <div className='PersonalData'>
-                       <div>Телефон</div>
-                       <Input/>
-                       <a>Изменить</a>
                     </div>
                 </div>
                 <div id="My-orders" className='Page'>

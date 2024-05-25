@@ -1,26 +1,42 @@
-import React from 'react'
-import './LoginPage.css'
-import Input from 'antd/es/input/Input'
-import { Button } from 'antd'
+import React,{useState} from 'react'
+import {useDispatch} from 'react-redux'
+import {setUser} from '../slices/userSlice'
+import {setUserPass} from '../slices/userPass'
+import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
+import FormPage from '../FormPage/FormPage'
+import { useNavigate  } from 'react-router-dom'
 export default function LoginPage() {
+  const dispath = useDispatch();
+  let navigate = useNavigate();
+
+  const [ErrorLogin,setErrorLogin] = useState("");
+  const [ErrorPass,setErrorPass] = useState("");
+  const handleLogin = (email,password) => {
+    const auth = getAuth();
+    signInWithEmailAndPassword(auth,email,password)
+                .then(({user}) => {
+                  dispath(setUser({
+                    email: user.email,
+                    id: user.uid,
+                    token: user.accessToken,
+                  } ));
+                  navigate('/');
+                })
+                .catch(function(error) {
+                  var errorCode = error.code;
+                  console.log(errorCode)
+                  if (errorCode == 'auth/invalid-email') {
+                    setErrorLogin("Неверный email!!");
+                    setErrorPass("");
+                  }
+                  if (errorCode == 'auth/invalid-credential') {
+                    setErrorPass(<a>Неверный пароль или нужно <a className ="Error-auth" href='register'>зарегестрироваться</a></a>);
+                    setErrorLogin("");
+                    
+                  }
+                }) , dispath(setUserPass({password: password,} ));
+  }
   return (
-    <section className='wrapper-login'>
-        <div className="LoginPage">
-           <div className='Login-logo'>Авторизация</div>
-           <div className='Login'>
-           <div>Логин</div>
-           <Input/>
-           </div>
-           <div className='Login'>
-           <div>Телефон</div>
-           <Input/>
-           </div>
-           <div className='Login'>
-           <div>Пароль</div>
-           <Input/>
-           </div>
-           <Button>Вход</Button>
-        </div>
-    </section>
+    <FormPage title="Вход" handleClick = {handleLogin} ErrLogin={ErrorLogin} ErrPassword={ErrorPass}/>
   )
 }
