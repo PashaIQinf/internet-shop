@@ -2,7 +2,7 @@ import React from 'react'
 import './ProductProps.css'
 import Input from 'antd/es/input/Input'
 import { Button } from 'antd'
-export default function ProductProps() {
+export default function ProductProps(props) {
   return (
     <div className='ProductProps'>
         <div className='PropsTab'>
@@ -71,38 +71,54 @@ export default function ProductProps() {
                 </div>
                 <div id= "Characteristics" className='TabBlock'>
                  <table className='CharaTable'>
+                  <tbody>
                    <tr className='Characteristics-props'>
                     <td>Производитель</td>
-                    <td>ООО "КДВ Воронеж"</td>
+                    <td>{props.manufacturer}</td>
                    </tr>
+                   </tbody>
+                   <tbody>
                    <tr className='Characteristics-props'>
                     <td>Страна производства</td>
-                    <td>Россия</td>
+                    <td>{props.country}</td>
                    </tr>
+                   </tbody>
+                   <tbody>
                    <tr className='Characteristics-props'>
                      <td>Срок хранения</td>
-                     <td>6 мес.</td>
+                     <td>{props.expiration} мес.</td>
                    </tr>
+                   </tbody>
+                   <tbody>
                    <tr className='Characteristics-props'>
                      <td>Вес</td>
-                     <td>180 г</td>
+                     <td>{props.weight} г</td>
                    </tr>
+                   </tbody>
+                   <tbody>
                    <tr className='Characteristics-props'>
                      <td>Артикул</td>
-                     <td>ВК268</td>
+                     <td>{props.item}</td>
                    </tr>
+                   </tbody>
+                   <tbody>
                    <tr className='Characteristics-props'>
                      <td>Упаковка</td>
-                     <td>фасованный</td>
+                     <td>{props.package}</td>
                    </tr>
+                   </tbody>
+                   <tbody>
                    <tr className='Characteristics-props'>
                      <td>Вкус</td>
-                     <td>шоколад</td>
+                     <td>{props.taste}</td>
                    </tr>
+                   </tbody>
+                   <tbody>
                    <tr className='Characteristics-props-end'>
                      <td>Состав продукта</td>
-                     <td>сахар, молоко цельное сгущенное с сахаром (молоко цельное, молоко обезжиренное, сахар (сахароза), лактоза); патока, заменитель масла какао (масло растительное, эмульгаторы: Е492, лецитин соевый); какао-порошок, заменитель молочного жира (масла растительные, антиокислитель: Е306); сыворотка молочная сухая, соль, эмульгатор: лецитин соевый; ароматизатор. Возможно наличие следов глютена, диоксида серы.</td>
+                     <td>{props.composition}</td>
                    </tr>
+                   </tbody>
                 </table>
                 </div>
             </div>

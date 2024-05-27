@@ -12,7 +12,7 @@ export default function ProductTodo(props) {
                 <div className='Product-border'>{props.rating} баллов</div>
                 <div className='Product-end'>{props.buy} Куплено</div>
             </div>
-            <a className='Product-name' onClick={()=> navigate('/item')} >{props.name}</a>
+            <a className='Product-name' onClick={()=> ( navigate('/item/'+ props.index))} >{props.name}</a>
             <div className='Product-cost'>
                 <div>{props.cost} руб. за штуку</div>
                 <Button className='Product-buy'><img src={Shoppingcart}/></Button>

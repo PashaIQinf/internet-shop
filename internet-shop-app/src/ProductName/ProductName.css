@@ -7,6 +7,9 @@
     display: inline-block;
     border: 1px solid #44251c; 
 }
+.ProductName img {
+    background-color: white;
+}
 .ProductName div {
     font-size: 18px;
     font-family: tahoma, sans-serif;
