@@ -18,12 +18,12 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Provider store={store}>
       <Routes>
         <Route path="/" element={<App/>} />
-        <Route path="/basket" element={<App2/>} />
+        <Route path="/site/basket" element={<App2/>} />
         <Route path="/item/:itemid" element={<App3/>} />        
-        <Route path="/order" element={<App4/>} />
-        <Route path="/register" element={<App5/>} />
-        <Route path="/login" element={<App6/>} />
-        <Route path="/account" element={<App7/>} />
+        <Route path="/site/order" element={<App4/>} />
+        <Route path="/site/register" element={<App5/>} />
+        <Route path="/site/login" element={<App6/>} />
+        <Route path="/site/account" element={<App7/>} />
       </Routes>
       </Provider>
    </BrowserRouter>
