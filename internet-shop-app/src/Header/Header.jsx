@@ -31,9 +31,9 @@ export default function Header() {
     <a  className="logo" onClick={()=>navigate('/')}><img className="menulogo" src={Wonkaslogo} alt=""/></a>
     <img className="menu" src = {Menu}/>
     <div className="header-right">
-     <Button className='menu-button' onClick={()=>navigate('/site/account')} ><a>Личный Кабинет</a></Button>
+     <Button className='menu-button' onClick={()=>navigate('/account')} ><a>Личный Кабинет</a></Button>
      <Button className='menu-button' onClick={()=>dispath(removeUser())}><a>Выйти</a></Button>
-     <a className="shopcart" onClick={()=>navigate('/site/basket')}><img  src={Shopcart}  /></a>
+     <a className="shopcart" onClick={()=>navigate('/basket')}><img  src={Shopcart}  /></a>
     </div>
     <div className="search-container">
      <Search type="text" placeholder="Поиск" name="search"/>
@@ -44,9 +44,9 @@ export default function Header() {
     <a href="/internet-shop" className="logo"><img className="menulogo" src={Wonkaslogo} alt=""/></a>
     <img className="menu" src = {Menu}/>
     <div className="header-right">
-     <Button className='menu-button' ><a href = "/internet-shop/site/login">Авторизация</a></Button>
-     <Button  className='menu-button' ><a href = "/internet-shop/site/register">Регистрация</a></Button>
-     <a className="shopcart" href = '/internet-shop/site/basket'><img  src={Shopcart}  /></a>
+     <Button className='menu-button' ><a href = "/internet-shop/login">Авторизация</a></Button>
+     <Button  className='menu-button' ><a href = "/internet-shop/register">Регистрация</a></Button>
+     <a className="shopcart" href = '/internet-shop/basket'><img  src={Shopcart}  /></a>
     </div>
     <div className="search-container">
      <Search type="text" placeholder="Поиск" name="search"/>
