@@ -7,7 +7,7 @@ export default function Product() {
   const ProductsList = useSelector(selectProducts);
   return (
     <div className='shop' >
-        {ProductsList.map( (item , i,) =><ProductTodo key={i} index={i}image={item.image} cost={item.cost} buy={item.buy} rating={item.rating} name={item.name}/> )}
+        {ProductsList.map( (item , i,) =><ProductTodo key={i} index={i} image={item.image} cost={item.cost} buy={item.buy} rating={item.rating} name={item.name} Kg={item.Kg}/> )}
     </div>
         
   )

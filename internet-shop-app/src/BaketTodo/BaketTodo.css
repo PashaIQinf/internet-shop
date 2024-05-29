@@ -1,0 +1,77 @@
+.Baket-product {
+    background-color: #E8CEC6;
+    height: 100px;
+    border-bottom: 3px solid #FCC58C; 
+    border-top: 3px solid #FCC58C; 
+    display:flexbox;
+}
+.Baket-product img {
+    background-color: white;
+    height: 100px;
+    width:calc(20%);
+    float: left;
+    border: 1px solid #FCC58C; 
+}
+.Baket-name {
+    width:calc(80%);
+    height: 100px;
+    left:calc(20%);
+    position: relative;
+    align-content: left;
+    display: block;
+}
+.Baket-name div {
+    font-size: 16px;
+    font-family: tahoma, sans-serif;
+    color: #44251c;
+    position: relative;
+    text-align:start;
+    height: calc(50%);
+
+
+}
+.Baket-count {
+    width:calc(20%);
+    height: calc(30%);
+    float: right;
+    position: relative;
+    left: 153px;
+    bottom: 40px;
+}
+.Baket-count div {
+    display: inline;
+    font-size: 16px;
+    font-family: tahoma, sans-serif;
+    color: #44251c;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.Baket-count Button {
+    display: inline;
+    background-color: #FCC58C;
+    color: #C07651; 
+    cursor: pointer; 
+    width: fit-content;
+}
+.Baket-count Button:hover {
+    background-color: #44251C !important;
+    border-color: #44251C !important; 
+    color: whitesmoke !important; 
+}
+.Baket-button{
+    float: right;
+    position: relative;
+    bottom: 90px;
+    background-color: #FCC58C;
+    border: 1px solid #FCC58C; 
+    color: #C07651; 
+    cursor: pointer; 
+    width: 150px;
+    margin-right: 20px;
+    display: block;
+}
+.Baket-button:hover {
+    background-color: #44251C !important;
+    border-color: #44251C !important; 
+    color: whitesmoke !important; 
+}

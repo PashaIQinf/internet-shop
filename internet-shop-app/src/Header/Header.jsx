@@ -46,7 +46,7 @@ export default function Header() {
     <div className="header-right">
      <Button className='menu-button' ><a href = "/internet-shop/login">Авторизация</a></Button>
      <Button  className='menu-button' ><a href = "/internet-shop/register">Регистрация</a></Button>
-     <a className="shopcart" href = '/internet-shop/basket'><img  src={Shopcart}  /></a>
+     <a className="shopcart" ><img  src={Shopcart}  /></a>
     </div>
     <div className="search-container">
      <Search type="text" placeholder="Поиск" name="search"/>

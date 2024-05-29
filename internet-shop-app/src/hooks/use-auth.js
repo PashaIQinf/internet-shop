@@ -5,6 +5,7 @@ export function useAuth() {
 
     return {
         isAuth: !!email,
+        isUid: !!id,
         email,
         token,
         id,

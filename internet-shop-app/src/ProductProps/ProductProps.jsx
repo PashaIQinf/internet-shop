@@ -91,12 +91,6 @@ export default function ProductProps(props) {
                    </tbody>
                    <tbody>
                    <tr className='Characteristics-props'>
-                     <td>Вес</td>
-                     <td>{props.weight} г</td>
-                   </tr>
-                   </tbody>
-                   <tbody>
-                   <tr className='Characteristics-props'>
                      <td>Артикул</td>
                      <td>{props.item}</td>
                    </tr>

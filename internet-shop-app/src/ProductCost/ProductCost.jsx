@@ -4,7 +4,7 @@ import { Button } from 'antd'
 export default function ProductCost(props) {
   return (
     <div className='ProductCost'>
-        <h2>{props.cost} руб. за штуку</h2>
+        <h2>{props.cost} руб. за {props.Kg}</h2>
         <Button>Добавить в корзину</Button>
         <div>{props.view} Просмотрено</div>
         <div>{props.buy} Куплено</div>

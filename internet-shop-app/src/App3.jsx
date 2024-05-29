@@ -11,7 +11,7 @@ export default function App3() {
   return (
     <>
      <Header/>
-     {ProductsList.map( (item, i) => (i==itemid) ? (<ProductPage key= {itemid} image= {item.image} description = {item.description} name={item.name} rating= {item.rating} proteins = {item.proteins} fats = {item.fats} carbohydrates = {item.carbohydrates} calories = {item.calories} cost = {item.cost} view = {item.view} buy = {item.buy} manufacturer = {item.manufacturer}  country = {item.country} expiration = {item.expiration}  weight = {item.weight} item = {item.item} package = {item.package} taste = {item.taste} composition = {item.composition}/> ) : (console.log()))}
+     {ProductsList.map( (item, i) => (i==itemid) ? (<ProductPage key= {itemid} image= {item.image} description = {item.description} name={item.name} rating= {item.rating} proteins = {item.proteins} fats = {item.fats} carbohydrates = {item.carbohydrates} calories = {item.calories} cost = {item.cost} view = {item.view} buy = {item.buy} manufacturer = {item.manufacturer}  country = {item.country} expiration = {item.expiration}  weight = {item.weight} item = {item.item} package = {item.package} taste = {item.taste} composition = {item.composition} Kg = {item.Kg}/> ) : (console.log()))}
      <Footer/>
     </>
   )

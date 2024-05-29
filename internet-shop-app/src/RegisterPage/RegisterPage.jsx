@@ -5,6 +5,8 @@ import { setUserPass } from '../slices/userPass';
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 import RegFormPage from '../RegFormPage/RegFormPage'
 import { useNavigate  } from 'react-router-dom'
+import { collection,addDoc,query,deleteDoc,doc,getDocs} from "firebase/firestore"; 
+import {firestore} from "../firebase";
 export default function RegisterPage() {
   const dispath = useDispatch();
   let navigate = useNavigate();
@@ -14,13 +16,14 @@ export default function RegisterPage() {
   const handleRegister = (email,password,repassword) => {
     const auth = getAuth();
     (password == repassword) ? (createUserWithEmailAndPassword(auth,email,password) 
-                .then( (({user}) => {
+                .then( (async({user}) => {
                   dispath(setUser({
                     email: user.email,
                     id: user.uid,
                     token: user.accessToken,
                   }));
-                  setIsErrPass(false)
+                  setIsErrPass(false);
+                  addDoc(collection(firestore,"UserBasket",user.uid,"Basket"), {cost:null,name:null,image:null,count:null, index:null});
                   navigate('/');
                 }))
                 .catch(function(error) {
@@ -38,7 +41,7 @@ export default function RegisterPage() {
                     setErrorPass("Слишком маленький пароль!!");
                     setErrorLogin("");
                   }
-              }, setIsErrPass(false), ), dispath(setUserPass({password: password,} )) 
+              }, setIsErrPass(false), ), dispath(setUserPass({password: password,} ))
               ) : (setErrorLogin(""), setErrorPass("") , setIsErrPass(true));
               
   }
