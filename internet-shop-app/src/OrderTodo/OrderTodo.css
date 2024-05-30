@@ -1,0 +1,14 @@
+.Orders-items {
+    font-size: 23px;
+    font-family: tahoma, sans-serif;
+    color: #44251c;
+    border-bottom: 2px solid #44251C;
+    padding-bottom: 100px;
+}
+.Orders-items td {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.Orders-items td:nth-child(4) {
+    float: right;
+ }

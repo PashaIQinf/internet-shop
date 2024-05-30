@@ -30,7 +30,7 @@ export default function Baket() {
             }}>Очистить корзину</Button>
         </div>
 
-        {Itemlist.map( (item , i,) =>(item.image != null) ? (<BaketTodo key={i} image={item.image } cost={item.cost }  name={item.name } count = {item.count } Kg = {item.Kg }  index={i}/>) : (console.log()) )}
+        {(Itemlist !=null) ? (Itemlist.map( (item , i,) =>(item.image != null) ? (<BaketTodo key={i} image={item.image } cost={item.cost }  name={item.name } count = {item.count } Kg = {item.Kg }  index={i}/>) : (console.log()) )) : (null)}
         
         
     </div>

@@ -16,7 +16,7 @@ export default function FormPage({title , handleClick,ErrLogin,ErrPassword}) {
            </div>
            <div className='Form'>
            <div>Пароль</div>
-           <Input type='text' value={pass} onChange={(e) => setPass(e.target.value)}/>
+           <Input type='password' value={pass} onChange={(e) => setPass(e.target.value)}/>
            <div className='Error-Form'>{ErrPassword}</div>
            </div>
            <Button onClick={()=>handleClick(email,pass)}>{title}</Button>

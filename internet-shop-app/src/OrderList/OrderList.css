@@ -1,0 +1,24 @@
+.OrderList-items {
+    background-color: #E8CEC6;
+    font-size: 20px;
+    font-family: tahoma, sans-serif;
+    color:  #44251c;
+    width: calc(100%);
+    border-bottom: 1px solid #44251c;
+    width: calc(100%);
+}
+.OrderList-items-col {
+    display: inline-block;
+    vertical-align:middle;
+    align-content: center;
+    width: calc(33%);
+    border-right: 1px solid #44251c;
+    height: 48px;
+}
+.OrderList-items-end {
+    display: inline-block;
+    vertical-align:middle;
+    align-content: center;
+    width: calc(33.33333%);
+    
+}

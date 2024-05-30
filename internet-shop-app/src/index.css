@@ -11,3 +11,4 @@
   background-color: #D62D4C !important;
 }
   
+[ant-click-animating-without-extra-node='true']::after{display:none;}

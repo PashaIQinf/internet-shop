@@ -17,12 +17,12 @@ export default function RegFormPage({title , handleClick,errPass,ErrLogin, ErrPa
            </div>
            <div className='RegForm'>
            <div>Пароль</div>
-           <Input type='text' value={pass} onChange={(e) => setPass(e.target.value)}/>
+           <Input type='password' value={pass} onChange={(e) => setPass(e.target.value)}/>
            <div className='Error-RegForm'>{ErrPassword}</div>
            </div>
            <div className='RegForm'>
            <div>Повторить Пароль</div>
-           <Input type='text' value={repass} onChange={(e) => setRepass(e.target.value)}/>
+           <Input type='password' value={repass} onChange={(e) => setRepass(e.target.value)}/>
            <div className='Error-RegForm'>{errPass}</div>
            </div>
            <Button onClick={()=>handleClick(email,pass,repass)}>{title}</Button>

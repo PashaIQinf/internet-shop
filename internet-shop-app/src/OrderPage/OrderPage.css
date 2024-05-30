@@ -1,0 +1,144 @@
+.Order {
+    background-color: #f9ddca;
+    width: 800px;
+    height: 900px;
+    margin: 40px;
+    vertical-align: middle;
+    display: inline-block;
+    border: 1px solid #44251c; 
+}
+.Delivery-logo {
+    background-color: #E8CEC6;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-family: tahoma, sans-serif;
+    color:  #44251c;
+    font-weight:bold;
+}
+.Delivery {
+    font-size: 20px;
+    font-family: tahoma, sans-serif;
+    color:  #44251c;
+    display: block;
+    margin: 0px auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.Delivery div {
+    vertical-align: middle;
+    display: inline-block;
+    width: calc(30%);
+}
+.Delivery Input {
+    vertical-align: middle;
+    display: inline-block;
+    width: calc(50%);
+    height: 40px;
+}
+.Payment-logo {
+    background-color: #E8CEC6;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-family: tahoma, sans-serif;
+    color:  #44251c;
+    font-weight:bold;
+}
+.PaymentInput {
+    font-size: 20px;
+    font-family: tahoma, sans-serif;
+    color:  #44251c;
+    display: block;
+    margin: 0px auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: calc(100%);
+}
+.PaymentInput div {
+    vertical-align: middle;
+    display: inline-block;
+    width: calc(30%);
+}
+.PaymentInput Input {
+    vertical-align: middle;
+    display: inline-block;
+    width: calc(50%);
+    height: 40px;
+}
+.Secret-code {
+    vertical-align: middle;
+    display: inline-block;
+    width: calc(30%);
+    
+    margin-inline: 100px;
+    margin-inline-start: 0px;
+    justify-content: center;
+    align-items: center;
+
+}
+.Secret-code div {
+    font-size: 20px;
+    font-family: tahoma, sans-serif;
+    color:  #44251c;
+}
+.Secret-code Input {
+    width: calc(80%);
+    height: 40px;
+}
+.PaymentCode {
+    display: inline-block;
+    width: calc(100%);
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.Secret-code-end {
+    vertical-align: middle;
+    display: inline-block;
+    width: calc(30%);
+    
+    margin-inline: 100px;
+    margin-inline-end: 0px;
+    justify-content: center;
+    align-items: center;
+
+}
+.Secret-code-end div {
+    font-size: 20px;
+    font-family: tahoma, sans-serif;
+    color:  #44251c;
+}
+.Secret-code-end Input {
+    width: calc(80%);
+    height: 40px;
+}
+.Contacts-logo {
+    background-color: #E8CEC6;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-family: tahoma, sans-serif;
+    color:  #44251c;
+    font-weight:bold;
+
+}
+.Contacts {
+    font-size: 20px;
+    font-family: tahoma, sans-serif;
+    color:  #44251c;
+    display: block;
+    margin: 0px auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.Contacts div {
+    vertical-align: middle;
+    display: inline-block;
+    width: calc(30%);
+}
+.Contacts Input {
+    vertical-align: middle;
+    display: inline-block;
+    width: calc(50%);
+    height: 40px;
+}

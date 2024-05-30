@@ -23,7 +23,7 @@ export default function RegisterPage() {
                     token: user.accessToken,
                   }));
                   setIsErrPass(false);
-                  addDoc(collection(firestore,"UserBasket",user.uid,"Basket"), {cost:null,name:null,image:null,count:null, index:null});
+                  addDoc(collection(firestore,"UserBasket",user.uid,"Basket"), {cost:null,name:null,image:null,Kg:null, index:null});
                   navigate('/');
                 }))
                 .catch(function(error) {

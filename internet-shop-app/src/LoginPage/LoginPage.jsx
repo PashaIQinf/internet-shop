@@ -10,6 +10,7 @@ import {firestore} from "../firebase";
 import {selectUid} from '../slices/userSlice'
 import {setBasket} from '../slices/BasketSlice'
 import {useAuth} from '../hooks/use-auth'
+import {setOrder} from '../slices/OrderSlice'
 export default  function LoginPage() {
   const dispath = useDispatch();
   let navigate = useNavigate();
@@ -27,6 +28,7 @@ export default  function LoginPage() {
                   } ));
                   const snapshot = await getBasket(user.uid) 
                   dispath(setBasket({basket:snapshot}));
+                  dispath(setOrder({orders:await getOrder(user.uid) }))
                   navigate('/');
                 })
                 .catch(function(error) {
@@ -51,5 +53,9 @@ export default  function LoginPage() {
 }
 async function getBasket(uid) { 
   const snapshot = await getDocs(collection(firestore,"UserBasket",uid,"Basket"));
+  return  snapshot.docs.map(doc => doc.data());
+}
+async function getOrder(uid) { 
+  const snapshot = await getDocs(collection(firestore,"UserBasket",uid,"Order"));
   return  snapshot.docs.map(doc => doc.data());
 }

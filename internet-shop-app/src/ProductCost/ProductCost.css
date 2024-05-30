@@ -18,9 +18,15 @@
     color:#44251C;
     font-size: 18px;
     font-family: tahoma, sans-serif;
-    color: #44251c;
+    
+
 }
 .ProductCost Button:hover {
+    background-color: #44251C !important;
+    border-color: #44251C !important; 
+    color: whitesmoke !important;   
+}
+.ProductCost Button:focus-visible {
     background-color: #44251C !important;
     border-color: #44251C !important; 
     color: whitesmoke !important; 
