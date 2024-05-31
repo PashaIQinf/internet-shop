@@ -2,7 +2,7 @@ import React,{useState} from 'react'
 import {useDispatch, useSelector} from 'react-redux'
 import {setUser} from '../slices/userSlice'
 import {setUserPass} from '../slices/userPass'
-import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
+import { getAuth, signInWithEmailAndPassword ,updatePassword} from "firebase/auth";
 import FormPage from '../FormPage/FormPage'
 import { useNavigate  } from 'react-router-dom'
 import { collection,getDocs} from "firebase/firestore";
@@ -26,6 +26,7 @@ export default  function LoginPage() {
                     id: user.uid,
                     token: user.accessToken,
                   } ));
+
                   const snapshot = await getBasket(user.uid) 
                   dispath(setBasket({basket:snapshot}));
                   dispath(setOrder({orders:await getOrder(user.uid) }))
@@ -39,7 +40,10 @@ export default  function LoginPage() {
                     setErrorPass("");
                   }
                   if (errorCode == 'auth/invalid-credential') {
-                    setErrorPass(<a>Неверный пароль или нужно <a className ="Error-auth" href='register'>зарегестрироваться</a></a>);
+                    setErrorPass(<a>Неверный пароль или  <a style={{color: '#3366BB',
+                      textDecoration: "underline"}}  onClick={() => { updatePassword(auth.currentUser,password).then(() => {
+                  }).catch((error) => {
+                  });}}>измени пароль</a></a>);
                     setErrorLogin("");
                     
                   }
